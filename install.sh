@@ -7,8 +7,10 @@ then
     touch ~/.vimrc
 fi
 # Install myvimrc.vim
-cat "source ~/.myvimrc/myvimrc.vim" >> ~/.vimrc
+echo "source ~/.myvimrc/myvimrc.vim" >> ~/.vimrc
 # Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# Let Vundle install plugins
+vim +PluginInstall +qall
 # Finish!
 echo "Myvimrc configurations were intsalled. Enjoy :-)"

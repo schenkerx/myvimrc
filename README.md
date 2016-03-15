@@ -1,7 +1,7 @@
 # My .vimrc file
 I have used and tweaked Vim for my development uses. This is my `.vimrc` configuration.
 
-## How to install?
+## How to install
 **Attention: If you are currently using your own `.vimrc` configuration, you should know how to merge my settings into yours. Otherwise, your settings may be messed up if you try steps below!**
 
 ```
@@ -11,7 +11,7 @@ sh ~/.myvimrc/install.sh
 
 I also recommend using the [powerline patched fonts](https://github.com/powerline/fonts). Now the setup is complete.
 
-## How to upgrade to latest version?
+## How to upgrade to latest version
 Simply do git rebase.
 ```
 cd ~/.myvimrc
